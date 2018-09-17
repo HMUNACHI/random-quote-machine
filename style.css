@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css?family=Abel");
+.quote-area {
+  border-radius: 20px;
+  position: relative;
+  margin: 15% auto auto auto;
+  width: 500px;
+  padding: 80px 50px;
+  display: table;
+  background-color: brown;
+}
+.quote-text {
+  text-align: center;
+  height: auto;
+  font-weight: 200;
+  font-size: 30px;
+  color: white;
+}
+.quote-author {
+  width: 400px;
+  height: auto;
+  clear: both;
+  padding-top: 20px;
+  font-size: 15px;
+  text-align: right;
+  padding-bottom: 20px;
+  color: white;
+}
+.wrap {
+  text-align: center;
+  color: brown;
+  font-family: Abel;
+}
+a {
+  color: brown;
+}
+a:hover {
+  text-decoration: none;
+  opacity: 0.8;
+}
+#tweet-button {
+  float: left;
+  color: black;
+  border-radius: 30px;
+}
+#new-quote {
+  float: right;
+  color: black;
+  border-radius: 30px;
+}
+#tweet-button:hover,
+#new-quote:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
